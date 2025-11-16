@@ -53,7 +53,7 @@ const rain = () => {
   div.classList.add("letter");
   cloud.appendChild(div);
   div.textContent = randomLetters();
-  div.style.left = left +  "px";
+  div.style.left = left + 10+ "px";
   div.style.fontSize = 0.5 + size + "em";
   div.style.animationDuration = 1 + duration + "s";
   setTimeout(() => {
